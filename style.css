@@ -176,6 +176,13 @@ ul li span:hover{
   
 
 @media (max-width: 420px) {
+    .slide-content{
+        max-width: 260px;
+    }
+    .btn{
+        display: flex;
+        justify-content: end;
+    }
     .row{
         background: transparent;
         display: block;
